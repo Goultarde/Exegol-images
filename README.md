@@ -8,3 +8,5 @@ ___
 This repository hosts Dockerfiles for each Exegol image, an installation script, and various assets needed during the installation (custom configurations, a history file, an aliases file, etc.). These files can be used to locally build the docker images.
 
 More information on [docs.exegol.com](https://docs.exegol.com/).
+
+test

@@ -10,3 +10,4 @@ This repository hosts Dockerfiles for each Exegol image, an installation script,
 More information on [docs.exegol.com](https://docs.exegol.com/).
 
 test
+test

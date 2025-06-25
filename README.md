@@ -9,5 +9,5 @@ This repository hosts Dockerfiles for each Exegol image, an installation script,
 
 More information on [docs.exegol.com](https://docs.exegol.com/).
 
-test
-mette un --force pour forcer l'update même sans qu'il y est eu de commit
+
+mettre un --force pour forcer l'update même sans qu'il y est eu de commit

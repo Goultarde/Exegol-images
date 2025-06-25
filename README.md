@@ -12,3 +12,4 @@ More information on [docs.exegol.com](https://docs.exegol.com/).
 ### A rajouter
 * mettre un --force pour forcer l'update même sans qu'il y est eu de commit
 * 
+test

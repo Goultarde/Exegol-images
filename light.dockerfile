@@ -8,7 +8,7 @@ ARG TAG="local"
 ARG VERSION="local"
 ARG BUILD_DATE="n/a"
 
-LABEL org.exegol.tag="${TAG}"
+LABEL org.exegol.tag="${TAG}"0 
 LABEL org.exegol.version="${VERSION}"
 LABEL org.exegol.build_date="${BUILD_DATE}"
 LABEL org.exegol.app="Exegol"
@@ -26,7 +26,8 @@ WORKDIR /root/sources/install
 
 RUN echo "${TAG}-${VERSION}" > /opt/.exegol_version
 RUN chmod +x entrypoint.sh
-RUN ./entrypoint.sh package_base
+#RUN ./entrypoint.sh package_base
+RUN ./entrypoint.sh post_build
 
 WORKDIR /workspace
 

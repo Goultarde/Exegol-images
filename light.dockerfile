@@ -27,7 +27,11 @@ WORKDIR /root/sources/install
 RUN echo "${TAG}-${VERSION}" > /opt/.exegol_version
 RUN chmod +x entrypoint.sh
 RUN ./entrypoint.sh package_base
+RUN ./entrypoint.sh package_desktop
+RUN ./entrypoint.sh package_most_used
+RUN ./entrypoint.sh package_misc
 RUN ./entrypoint.sh post_build
+
 
 WORKDIR /workspace
 

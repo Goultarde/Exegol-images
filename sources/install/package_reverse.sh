@@ -155,7 +155,7 @@ function package_reverse() {
     start_time=$(date +%s)
     install_reverse_apt_tools
     install_pwntools                # CTF framework and exploit development library
-    install_pwndbg                  # Advanced Gnu Debugger
+#    install_pwndbg                  # Advanced Gnu Debugger
     install_angr                    # Binary analysis
     install_checksec-py             # Check security on binaries
     install_radare2                 # Awesome debugger
